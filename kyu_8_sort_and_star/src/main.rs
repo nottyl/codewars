@@ -1,3 +1,5 @@
+// Link: https://www.codewars.com/kata/57cfdf34902f6ba3d300001e
+
 fn two_sort(arr: &[&str]) -> String {
     let mut v = arr.to_vec();
     let mut result = String::new();

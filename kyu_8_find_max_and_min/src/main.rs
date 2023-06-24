@@ -1,3 +1,5 @@
+// Link: https://www.codewars.com/kata/577a98a6ae28071780000989
+
 fn minimum(arr: &[i32]) -> i32 {
     let v = arr.to_vec();
     *v.iter().min().unwrap()
