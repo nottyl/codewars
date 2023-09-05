@@ -1,3 +1,5 @@
+// Link: https://www.codewars.com/kata/526dbd6c8c0eb53254000110
+
 #include <ctype.h>
 #include <stdbool.h>
 #include <stdio.h>
@@ -15,3 +17,11 @@ bool alphanumeric(const char *string) {
 	}
     return true;
 }
+
+// // Best Practice
+//
+// bool alphanumeric(const char* string) {
+//   if (*string == '\0') return false;
+//   while (*string) if (!isalnum(*string++)) return false;
+//   return true;
+// }
