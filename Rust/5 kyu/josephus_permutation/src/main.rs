@@ -1,5 +1,9 @@
 fn josephus_survivor(n: i32, k: i32) -> i32 {
-    todo!();
+    let mut result = 0;
+    for i in 2..=n {
+        result = (result + k) % i;
+    }
+    result + 1
 }
 
 #[cfg(test)]
