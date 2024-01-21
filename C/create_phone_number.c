@@ -1,5 +1,6 @@
 #include <stdint.h>
 
+// Unfinished code
 char *create_phone_number(char phnum[15], const uint8_t digits[10]) {
 	// write to phnum and return it
 	// it must be nul-terminated

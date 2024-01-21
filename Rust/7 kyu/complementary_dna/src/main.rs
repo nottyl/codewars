@@ -1,3 +1,4 @@
+#[allow(dead_code)]
 fn dna_strand(dna: &str) -> String {
     let mut strand = String::new();
 
